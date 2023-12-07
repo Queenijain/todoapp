@@ -190,15 +190,20 @@ input{
             }
             input{
                 height: 35px;
-                width: 250px;
+                width: 200px;
+            }
+            .box1{
+                margin-top: 20px;
+                height: 350px;
+                width: 70%;
             }
             .btn1{
                 height: 35px;
-                width: 200px;
+                width: 160px;
                 font-size: 22px;
             }
             .list{
                 height: 30px;
-                width: 200px;
+                width: 160px;
                 
             }}
