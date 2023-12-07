@@ -27,7 +27,7 @@
     text-align: center;
 }
 .boxee{
-    height: auto;
+    height: 85%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -35,8 +35,8 @@
     align-items: center;
 }
 .box1{
-    margin-top: 40px;
-    height: 600px;
+    margin-top: 50px;
+    height: 100%;
     width: 60%;
     background-color: rgba(103, 6, 6, 0.497);
     border-radius: 15px;
@@ -51,7 +51,7 @@ form{
 }
 input{
     height: 45px;
-    width: 800px;
+    width: 80%;
     margin-top: 22px;
     padding-inline: 10px;
     border: 2px solid rgb(103, 6, 6);
@@ -59,7 +59,7 @@ input{
 }
 .btn1{
     height: 42px;
-    width: 600px;
+    width: 65%;
     margin-top: 20px; 
     border: none;
     background-color: rgb(103, 6, 6);
@@ -93,11 +93,10 @@ input{
 }
 
 
-
 @media(max-width: 768px) {
     
 .container1{
-    height: auto;
+    height: 100vh;
     width: 100%;
     padding-bottom: 30px;
     
@@ -113,16 +112,16 @@ input{
 }
 .box1{
     margin-top: 20px;
-    height: 500px;
+    height: 100%;
     width: 70%;
 }
 input{
     height: 35px;
-    width: 420px;
+    width: 80%;
 }
 .btn1{
     height: 35px;
-    width: 340px;
+    width: 65%;
     font-size: 22px;
 }
 .list{
@@ -131,7 +130,7 @@ input{
     
 }}
 
-@media(max-width: 615px) {
+/* @media(max-width: 615px) {
     
     .container1{
         height: auto;
@@ -146,11 +145,11 @@ input{
     }
     input{
         height: 35px;
-        width: 340px;
+        width: 80%;
     }
     .btn1{
         height: 35px;
-        width: 280px;
+        width: 65%;
         font-size: 22px;
     }
     .list{
@@ -168,11 +167,11 @@ input{
         }
         input{
             height: 35px;
-            width: 290px;
+            width: 80%;
         }
         .btn1{
             height: 35px;
-            width: 250px;
+            width: 65%;
             font-size: 22px;
         }
         .list{
@@ -180,7 +179,7 @@ input{
             width: 250px;
             
         }}
-        @media(max-width: 430px) {
+@media(max-width: 430px) {
     
             .container1{
                 height: auto;
@@ -190,7 +189,7 @@ input{
             }
             input{
                 height: 35px;
-                width: 200px;
+                width: 80%;
             }
             .box1{
                 margin-top: 20px;
@@ -199,11 +198,11 @@ input{
             }
             .btn1{
                 height: 35px;
-                width: 160px;
+                width: 60%;
                 font-size: 22px;
             }
             .list{
                 height: 30px;
                 width: 160px;
                 
-            }}
+            }} */
