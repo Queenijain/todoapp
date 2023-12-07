@@ -84,7 +84,7 @@ input{
 }
 .list{
     height: 30px;
-    width: 520px;
+    width: 65%;
     list-style: none;
     display: flex;
     align-items: center;
@@ -126,7 +126,7 @@ input{
 }
 .list{
     height: 30px;
-    width: 320px;
+    width: 65%;
     
 }}
 
