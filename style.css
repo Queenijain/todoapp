@@ -8,11 +8,12 @@
     
 }
 .container1{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-image: url(./img-bg.jpg);
     background-position: center;
     background-size: cover;
+    padding-bottom: 40px;
 }
 .navbar1{
     height: 60px;
@@ -96,7 +97,7 @@ input{
 @media(max-width: 768px) {
     
 .container1{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     padding-bottom: 30px;
     
