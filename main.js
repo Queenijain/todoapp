@@ -5,13 +5,12 @@ let ul = document.querySelector('ul')
 const saveTodo = (e) => {
     e.preventDefault();
     let li = document.createElement("li");
-    li.className = "container list";
+    li.className = "list-group-item bg-transparent border-0";
+    li.style.color = 'bisque'
     li.innerText = input.value;
     let button = document.createElement("button");
     button.className="btn btn-sm btn-danger float-end"
     button.innerText = "X"
-
-
     li.appendChild(button);
     ul.appendChild(li);
 
